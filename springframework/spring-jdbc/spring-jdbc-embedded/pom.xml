@@ -3,13 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.gmail.zhangtiejun</groupId>
-		<artifactId>examples-parent</artifactId>
+		<artifactId>spring-jdbc</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>springframework</artifactId>
+	<artifactId>spring-jdbc-embedded</artifactId>
 	<packaging>pom</packaging>
-
+	
 	<modules>
-		<module>spring-jdbc</module>
+		<module>spring-embedded-derby</module>
+		<module>spring-embedded-h2</module>
+		<module>spring-embedded-hsql</module>
 	</modules>
 </project>

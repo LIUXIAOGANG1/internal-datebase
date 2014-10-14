@@ -5,11 +5,9 @@
     <artifactId>springframework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>spring-embedded</artifactId>
+  <artifactId>spring-jdbc</artifactId>
   <packaging>pom</packaging>
   <modules>
-  	<module>spring-embedded-hsql</module>
-  	<module>spring-embedded-h2</module>
-  	<module>spring-embedded-derby</module>
+  	<module>spring-jdbc-embedded</module>
   </modules>
 </project>

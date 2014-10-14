@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.gmail.zhangtiejun</groupId>
-		<artifactId>spring-embedded</artifactId>
+		<artifactId>spring-jdbc-embedded</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-embedded-derby</artifactId>
-
+	<artifactId>spring-embedded-h2</artifactId>
+	
 	<properties>
-		<version.org.apache.derby>10.11.1.1</version.org.apache.derby>
+		<version.com.h2database.h2>1.4.181</version.com.h2database.h2>
 	</properties>
 
 	<dependencies>
@@ -24,9 +24,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
-			<version>${version.org.apache.derby}</version>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>${version.com.h2database.h2}</version>
 		</dependency>
 
 		<dependency>

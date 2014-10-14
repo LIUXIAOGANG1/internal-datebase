@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.gmail.zhangtiejun</groupId>
-		<artifactId>spring-embedded</artifactId>
+		<artifactId>spring-jdbc-embedded</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>spring-embedded-hsql</artifactId>
-
+	
 	<properties>
 		<version.org.hsqldb>2.3.2</version.org.hsqldb>
 	</properties>
