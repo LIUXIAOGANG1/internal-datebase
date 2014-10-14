@@ -16,7 +16,7 @@ public class User {
 	private String password;
 	
 	@NotNull(message = "邮件地址不能为空")
-	@Email(message = "邮件地址不符合邮件规则")
+	@Email(message = "{org.hibernate.validator.constraints.Email.message}")
 	private String email;
 	
 	@Pattern(regexp="^[0]{1}[0-9]{2,3}-[0-9]{7,8}$", message="电话格式错误")

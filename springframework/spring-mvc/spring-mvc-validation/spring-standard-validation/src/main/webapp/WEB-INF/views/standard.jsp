@@ -25,7 +25,7 @@
 				<div class="span2"></div>
 				<div class="span6">
 					<h3 class="text-info text-center">Spring MVC 表单验证演示</h3>
-					<form:form action="${pageContext.request.contextPath}/register.html" method="POST" commandName="user">
+					<form:form action="${pageContext.request.contextPath}/standard.html" method="POST" commandName="user">
 						<div class="control-group">
 							<label class="control-label" for="username">用户名</label>
 							<div class="controls">
@@ -33,7 +33,7 @@
 							</div>
 						</div>
 						<div class="control-group">
-							<label class="control-label" for="password">密码</label>
+							<label class="control-labelj" for="password">密码</label>
 							<div class="controls">
 								<form:input path="password" id="password" type="password" /><form:errors path="password" cssClass="error" />
 							</div>

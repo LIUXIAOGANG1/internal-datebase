@@ -19,27 +19,27 @@ public class ValidationController {
 		return defaultView(model);
     }
 	
-	@RequestMapping(value = "/register.html", method = RequestMethod.GET)
+	@RequestMapping(value = "/standard.html", method = RequestMethod.GET)
     public String viewRegister(Model model) {
 		return defaultView(model);
     }
  
-    @RequestMapping(value = "/register.html", method = RequestMethod.POST)
+    @RequestMapping(value = "/standard.html", method = RequestMethod.POST)
     public String doRegister(
     		@Valid @ModelAttribute("user") User userForm, 
     		BindingResult result, 
     		RedirectAttributes redirectAttributes) {
  
         if (result.hasErrors()) {
-            return "register";
+            return "standard";
         }
         redirectAttributes.addFlashAttribute("successMsg", "验证通过");
-        return "redirect:/register.html";
+        return "redirect:/standard.html";
     }
     
     private String defaultView(Model model) {
 		User user = new User();
 		model.addAttribute("user", user);
-        return "register";
+        return "standard";
 	}
 }

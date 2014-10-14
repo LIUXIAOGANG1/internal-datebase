@@ -9,5 +9,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>spring-mvc-validation</module>
+  	<module>spring-mvc-i18n</module>
   </modules>
 </project>
