@@ -33,7 +33,7 @@ public class ValidationController {
         if (result.hasErrors()) {
             return "register";
         }
-        redirectAttributes.addFlashAttribute("successMsg", "提交成功");
+        redirectAttributes.addFlashAttribute("successMsg", "验证通过");
         return "redirect:/register.html";
     }
     
