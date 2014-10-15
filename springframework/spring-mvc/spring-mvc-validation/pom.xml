@@ -11,5 +11,6 @@
 	
 	<modules>
 		<module>spring-standard-validation</module>
+		<module>spring-validation-with-i18n</module>
 	</modules>
 </project>

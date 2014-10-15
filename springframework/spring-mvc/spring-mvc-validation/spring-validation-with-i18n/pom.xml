@@ -6,7 +6,7 @@
 		<artifactId>spring-mvc-validation</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-standard-validation</artifactId>
+	<artifactId>spring-validation-with-i18n</artifactId>
 	<packaging>war</packaging>
 	
 	<properties>

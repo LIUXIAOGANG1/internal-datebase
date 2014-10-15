@@ -9,6 +9,6 @@
 	<artifactId>paypal</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<module>raas-api</module>
+		<module>express-checkout</module>
 	</modules>
 </project>
