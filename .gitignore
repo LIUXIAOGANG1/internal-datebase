@@ -2,6 +2,5 @@
 .settings
 *.classpath
 *.springBeans
-/springframework/spring-embedded/spring-embedded-hsql/.project
-/springframework/spring-embedded/spring-embedded-hsql/.classpath
-/springframework/spring-embedded/spring-embedded-hsql/.springBeans
+.idea
+*.iml
