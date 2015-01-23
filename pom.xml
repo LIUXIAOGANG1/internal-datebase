@@ -7,7 +7,6 @@
 	<packaging>pom</packaging>
 	
 	<modules>
-		<module>payment-platform</module>
 		<module>springframework</module>
 	</modules>
 	
