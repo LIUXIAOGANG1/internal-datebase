@@ -3,15 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.gmail.zhangtiejun</groupId>
-		<artifactId>examples-parent</artifactId>
+		<artifactId>springframework</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>springframework</artifactId>
+	<artifactId>spring-core</artifactId>
 	<packaging>pom</packaging>
-
+	
 	<modules>
-		<module>spring-core</module>
-		<module>spring-jdbc</module>
-		<module>spring-mvc</module>
+		<module>spring-config-database</module>
 	</modules>
 </project>
